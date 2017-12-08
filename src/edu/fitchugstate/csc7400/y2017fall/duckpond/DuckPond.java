@@ -54,6 +54,10 @@ public class DuckPond {
     System.out.println("Drawing nice pond with cattails");
   }
 
+  /*
+   * Draw the sky.
+   */
+  
   protected void drawSky() {
     System.out.println("Drawing blue sky");
   }

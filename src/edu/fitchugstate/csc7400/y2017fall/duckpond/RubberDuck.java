@@ -9,27 +9,23 @@ package edu.fitchugstate.csc7400.y2017fall.duckpond;
 
 /** 
  *  Rubber duck for pond
+ *  Rubber duck class inherits the flybehavior and queak behavior from duck class.
  */
+
+
 public class RubberDuck extends Duck {
-
-  /** 
-   *  Creates a new rubber duck
-   */
-  public RubberDuck() {
-	super("rubber_duck_still.bmp", null, "rubber_duck_swim.gif");
-  }
-
-  /** 
-   *  Rubber duck don't fly
-   */
-  public void fly() {
-    System.out.println("Rubber duck continues to swim");
-  }
-
-  /** 
-   *  Squeaks like a rubber duck.
-   */
-  public void quack() {
-    System.out.println("Squeak");
-  }
+	 
+	public RubberDuck() {
+		flyBehavior = new FlyNoWay();
+		quackBehavior = new Squeak();
+	}
+ 
+	
+	
+	/*
+	 * Display method displays the rubber duck.
+	 */
+	public void display() {
+		System.out.println("I'm a rubber duckie");
+	}
 }
