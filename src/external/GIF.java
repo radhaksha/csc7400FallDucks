@@ -17,4 +17,5 @@ public interface GIF {
    *  Displays the GIF animation
    */
   public void animate();
+  
 }

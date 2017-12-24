@@ -10,9 +10,11 @@ package external;
 /** 
  *  Simple class to mockup a GIF
  */
-public class GifImpl implements GIF {
+
+  public class GifImpl implements GIF {
 
   /** 
+public class GifI
    *  Creates a new GIF given a file name.
    */
   public GifImpl(String fileName) {

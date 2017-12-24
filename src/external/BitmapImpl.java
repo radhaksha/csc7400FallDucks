@@ -11,13 +11,12 @@ package external;
  *  Simple implementation of bitmap
  */
 public class BitmapImpl implements Bitmap {
-  /* {author=Orlando Montalvo, version=1.0, src_lang=Java}*/
+
 
   /** 
    *  Creates a new bitmap given a file name
    */
   public BitmapImpl(String fileName) {
-  /* {author=Orlando Montalvo, version=1.0}*/
     this.fileName = fileName;
   }
 
@@ -25,7 +24,6 @@ public class BitmapImpl implements Bitmap {
    *  Displays the bitmap file name
    */
   public void show() {
-  /* {author=Orlando Montalvo, version=1.0}*/
 	  System.out.println("Showing bitmap " + this.fileName);
   }
 

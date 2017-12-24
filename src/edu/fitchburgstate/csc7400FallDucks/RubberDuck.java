@@ -1,3 +1,4 @@
+package edu.fitchburgstate.csc7400FallDucks;
 /**
  * Class: Object-Oriented Design and Analysis
  * Professor: Orlando Montalvo
@@ -5,7 +6,7 @@
  * 
  * Date: 2017-11-28
  */
-package edu.fitchugstate.csc7400.y2017fall.duckpond;
+
 
 /** 
  *  Rubber duck for pond
@@ -16,8 +17,7 @@ package edu.fitchugstate.csc7400.y2017fall.duckpond;
 public class RubberDuck extends Duck {
 	 
 	public RubberDuck() {
-		flyBehavior = new FlyNoWay();
-		quackBehavior = new Squeak();
+super("rubber_duck_still.bmp", new RubberDuckBehaviorFactory("rubber_duck_fly.gif", "rubber_duck_swim.gif"));
 	}
  
 	
@@ -26,6 +26,6 @@ public class RubberDuck extends Duck {
 	 * Display method displays the rubber duck.
 	 */
 	public void display() {
-		System.out.println("I'm a rubber duckie");
+		still.show();
 	}
 }

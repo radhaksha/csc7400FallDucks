@@ -1,3 +1,4 @@
+package edu.fitchburgstate.csc7400FallDucks;
 /**
 
 /* Class: Object-Oriented Design and Analysis
@@ -11,7 +12,7 @@
  
  
  */
-package edu.fitchugstate.csc7400.y2017fall.duckpond;
+
 
 /** 
  *  This is a simple duck interface that will be used to display ducks on a pond in the pond simulator
